@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Radar do Vale - Notícias da Região</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+    }
+    header {
+      background: #c4170c; /* vermelho G1 */
+      color: white;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 20px;
+      padding: 20px;
+    }
+    .main-news {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+    }
+    .main-news img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .main-news h2 {
+      margin: 10px 0;
+      color: #c4170c;
+    }
+    .news-list article {
+      background: white;
+      margin-bottom: 15px;
+      padding: 10px;
+      border-radius: 8px;
+    }
+    .sidebar {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Radar do Vale</h1>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Polícia</a>
+      <a href="#">Política</a>
+      <a href="#">Esportes</a>
+      <a href="#">Economia</a>
+      <a href="#">Cultura</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <main>
+      <section class="main-news">
+        <img src="https://via.placeholder.com/800x400" alt="Notícia principal">
+        <h2>Manchete Principal da Região</h2>
+        <p>Resumo da notícia principal em poucas linhas para atrair o leitor a clicar e ler mais.</p>
+      </section>
+
+      <section class="news-list">
+        <article>
+          <h3>Notícia Secundária 1</h3>
+          <p>Resumo rápido da notícia. <a href="#">Leia mais</a></p>
+        </article>
+        <article>
+          <h3>Notícia Secundária 2</h3>
+          <p>Resumo rápido da notícia. <a href="#">Leia mais</a></p>
+        </article>
+        <article>
+          <h3>Notícia Secundária 3</h3>
+          <p>Resumo rápido da notícia. <a href="#">Leia mais</a></p>
+        </article>
+      </section>
+    </main>
+
+    <aside class="sidebar">
+      <h3>Previsão do Tempo</h3>
+      <p>☀️ Hoje: 28°C</p>
+      <p>🌙 Amanhã: 18°C</p>
+      <hr>
+      <h3>Publicidade</h3>
+      <img src="https://via.placeholder.com/300x250" alt="Banner de anúncio">
+    </aside>
+  </div>
+
+  <footer>
+    <p>Radar do Vale © 2025 - Todos os direitos reservados</p>
+    <p>Siga nas redes sociais: Facebook | Instagram | YouTube</p>
+  </footer>
+</body>
+</html>

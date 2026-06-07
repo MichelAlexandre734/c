@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1769906143 source:d:\cursos\python2.0\aula4\main.c
+	<stdio.h>
+	<stdlib.h>
+
